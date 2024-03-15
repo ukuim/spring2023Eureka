@@ -1,0 +1,11 @@
+Server:
+  port: 8762
+Spring:
+  Application:
+    Name: Eureka-Provider
+Eureka:
+  Client:
+    ServiceUrl:
+      DefaultZone: http://localhost:8761/eureka
+  instance:
+    preferIpAddress: true

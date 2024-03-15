@@ -1,0 +1,11 @@
+Server:
+  port: 80
+Spring:
+  Application:
+    Name: Feign-Consumer
+Eureka:
+  Client:
+    ServiceUrl:
+      DefaultZone: http://localhost:8762/eureka
+  instance:
+    preferIpAddress: true
